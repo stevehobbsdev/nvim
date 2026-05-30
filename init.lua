@@ -39,4 +39,4 @@ require("lazy").setup({
 require('config.lsp')
 require('config.keymaps')
 
-vim.lsp.enable({ 'luals', 'rust_analyzer', 'ruby_lsp' })
+vim.cmd.colorscheme("catppuccin")

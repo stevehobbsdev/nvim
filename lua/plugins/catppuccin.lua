@@ -12,8 +12,6 @@ return {
           telescope = { enabled = true },
         },
       })
-
-      vim.cmd.colorscheme "catppuccin-nvim"
     end,
   },
 }
