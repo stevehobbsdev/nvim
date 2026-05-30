@@ -36,11 +36,7 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
--- LSP config
-vim.lsp.config('luals', {
-  cmd = {'lua-language-server'},
-  filetypes = {'lua'},
-  root_markers = {'.luarc.json', '.luarc.jsonc'},
-})
+require('config.lsp')
+require('config.keymaps')
 
 vim.lsp.enable({ 'luals', 'rust_analyzer', 'ruby_lsp' })
